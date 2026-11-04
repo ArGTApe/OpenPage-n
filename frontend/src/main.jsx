@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import App from './App.jsx';
 import AuthProvider from './auth/AuthProvider/AuthProvider.jsx';
-import './styles_archive.css';
+import './styles/index.css';
 
 // Запуск приложения
 createRoot(document.getElementById('root')).render(
