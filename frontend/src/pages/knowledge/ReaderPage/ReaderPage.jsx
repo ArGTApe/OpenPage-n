@@ -19,8 +19,8 @@ import ReaderToolbar from '../ReaderToolbar.jsx';
 
 const SAVE_DELAY = 5000;
 const MAX_CONTENT_REFRESHES = 1;
-const PdfReader = lazy(() => import('./PdfReader.jsx'));
-const EpubReader = lazy(() => import('./EpubReader.jsx'));
+const PdfReader = lazy(() => import('../PdfReader/PdfReader.jsx'));
+const EpubReader = lazy(() => import('../EpubReader/EpubReader.jsx'));
 
 function clamp(value, minimum, maximum) {
   return Math.min(maximum, Math.max(minimum, value));

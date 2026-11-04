@@ -1,4 +1,4 @@
-import BookCard from './BookCard.jsx';
+import BookCard from '../BookCard/BookCard.jsx';
 
 export const initialBookCollectionState = {
   status: 'loading',

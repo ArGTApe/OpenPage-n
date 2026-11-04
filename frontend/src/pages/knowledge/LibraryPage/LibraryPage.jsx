@@ -6,7 +6,7 @@ import SiteLayout from '../../../components/SiteLayout.jsx';
 import BookCollection, {
   initialBookCollectionState,
   loadedBookCollection,
-} from './BookCollection.jsx';
+} from '../BookCollection/BookCollection.jsx';
 import BookLibraryRemoveDialog from '../BookLibraryRemoveDialog.jsx';
 
 export default function LibraryPage() {

@@ -9,9 +9,9 @@ import {
 import useAuth from '../../../auth/useAuth.js';
 import SiteLayout from '../../../components/SiteLayout.jsx';
 import BookCover from '../BookCover.jsx';
-import BookDeleteDialog from './BookDeleteDialog.jsx';
+import BookDeleteDialog from '../BookDeleteDialog/BookDeleteDialog.jsx';
 import BookEditDialog from '../BookEditDialog.jsx';
-import BookLibraryAction from './BookLibraryAction.jsx';
+import BookLibraryAction from '../BookLibraryAction/BookLibraryAction.jsx';
 import BookLibraryRemoveDialog from '../BookLibraryRemoveDialog.jsx';
 import {
   BookPublicationBadge,

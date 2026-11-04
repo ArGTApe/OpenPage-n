@@ -7,7 +7,7 @@ import {
 } from '../../../api/knowledge.js';
 import useAuth from '../../../auth/useAuth.js';
 import SiteLayout from '../../../components/SiteLayout.jsx';
-import MarkdownContent from '../MarkdownContent.jsx';
+import MarkdownContent from '../MarkdownContent/MarkdownContent.jsx';
 
 const initialState = { status: 'loading', article: null };
 

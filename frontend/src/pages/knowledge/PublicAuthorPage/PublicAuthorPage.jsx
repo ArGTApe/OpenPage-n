@@ -7,9 +7,9 @@ import {
   getKnowledgeAuthorBooks,
 } from '../../../api/knowledge.js';
 import SiteLayout from '../../../components/SiteLayout.jsx';
-import { ProfileAvatar } from './AuthorProfile.jsx';
-import ArticleCard from './ArticleCard.jsx';
-import BookCard from './BookCard.jsx';
+import { ProfileAvatar } from '../AuthorProfile/AuthorProfile.jsx';
+import ArticleCard from '../ArticleCard/ArticleCard.jsx';
+import BookCard from '../BookCard/BookCard.jsx';
 
 const initialAuthorState = { status: 'loading', author: null };
 const initialBooksState = {

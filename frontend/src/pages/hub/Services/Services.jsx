@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import knowledgeArtwork from '../../assets/knowledge-artwork.svg';
+import knowledgeArtwork from '../../../assets/knowledge-artwork.svg';
 
 // Каталог
 export default function Services() {

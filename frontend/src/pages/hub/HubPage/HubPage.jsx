@@ -1,4 +1,4 @@
-import Hero from './Hero.jsx';
+import Hero from '../Hero/Hero.jsx';
 import Services from '../Services/Services.jsx';
 import SiteLayout from '../../../components/SiteLayout.jsx';
 

@@ -10,14 +10,14 @@ import {
 } from '../../../api/knowledge.js';
 import useAuth from '../../../auth/useAuth.js';
 import SiteLayout from '../../../components/SiteLayout.jsx';
-import AuthorProfile from './AuthorProfile.jsx';
-import AuthorProfileDialog from './AuthorProfileDialog.jsx';
-import ArticleCard from './ArticleCard.jsx';
+import AuthorProfile from '../AuthorProfile/AuthorProfile.jsx';
+import AuthorProfileDialog from '../AuthorProfileDialog/AuthorProfileDialog.jsx';
+import ArticleCard from '../ArticleCard/ArticleCard.jsx';
 import BookCollection, {
   initialBookCollectionState,
   loadedBookCollection,
-} from './BookCollection.jsx';
-import BookLibraryAction from './BookLibraryAction.jsx';
+} from '../BookCollection/BookCollection.jsx';
+import BookLibraryAction from '../BookLibraryAction/BookLibraryAction.jsx';
 import BookUploadDialog from '../BookUploadDialog/BookUploadDialog.jsx';
 
 const initialArticlesState = {
