@@ -5,8 +5,8 @@ import {
   deleteKnowledgeProfileAvatar,
   getKnowledgeProfile,
   updateKnowledgeProfile,
-} from '../../api/knowledge.js';
-import useImagePreview from './useImagePreview.js';
+} from '../../../api/knowledge.js';
+import useImagePreview from '../useImagePreview.js';
 
 function formFromProfile(profile) {
   return {

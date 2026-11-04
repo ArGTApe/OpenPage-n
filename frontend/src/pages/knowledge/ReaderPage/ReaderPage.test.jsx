@@ -9,9 +9,9 @@ import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
-import { clearSession, saveSession } from '../../api/client.js';
-import { AuthContext } from '../../auth/useAuth.js';
-import { jsonResponse, mockUser } from '../../test/testData.js';
+import { clearSession, saveSession } from '../../../api/client.js';
+import { AuthContext } from '../../../auth/useAuth.js';
+import { jsonResponse, mockUser } from '../../../test/testData.js';
 import ReaderPage from './ReaderPage.jsx';
 
 const rendererMocks = vi.hoisted(() => ({

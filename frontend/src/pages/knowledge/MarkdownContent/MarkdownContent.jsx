@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-import { authorizedBlobRequest } from '../../api/client.js';
+import { authorizedBlobRequest } from '../../../api/client.js';
 
 const ARTICLE_IMAGE_PATH = '/api/knowledge/article-images/';
 

@@ -5,19 +5,19 @@ import {
   addBookToLibrary,
   getKnowledgeBook,
   getKnowledgeBookProgress,
-} from '../../api/knowledge.js';
-import useAuth from '../../auth/useAuth.js';
-import SiteLayout from '../../components/SiteLayout.jsx';
-import BookCover from './BookCover.jsx';
+} from '../../../api/knowledge.js';
+import useAuth from '../../../auth/useAuth.js';
+import SiteLayout from '../../../components/SiteLayout.jsx';
+import BookCover from '../BookCover.jsx';
 import BookDeleteDialog from './BookDeleteDialog.jsx';
-import BookEditDialog from './BookEditDialog.jsx';
+import BookEditDialog from '../BookEditDialog.jsx';
 import BookLibraryAction from './BookLibraryAction.jsx';
-import BookLibraryRemoveDialog from './BookLibraryRemoveDialog.jsx';
+import BookLibraryRemoveDialog from '../BookLibraryRemoveDialog.jsx';
 import {
   BookPublicationBadge,
   BookPublicationNotice,
-} from './BookPublicationInfo.jsx';
-import { bookDetailMetadata, formatBookProgress } from './bookPresentation.js';
+} from '../BookPublicationInfo/BookPublicationInfo.jsx';
+import { bookDetailMetadata, formatBookProgress } from '../bookPresentation.js';
 
 const initialState = { status: 'loading', book: null };
 const shareSuccessDuration = 2500;

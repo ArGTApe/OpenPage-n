@@ -13,9 +13,9 @@ import {
   getKnowledgeBookContent,
   getKnowledgeBookProgress,
   updateKnowledgeProgress,
-} from '../../api/knowledge.js';
-import useAuth from '../../auth/useAuth.js';
-import ReaderToolbar from './ReaderToolbar.jsx';
+} from '../../../api/knowledge.js';
+import useAuth from '../../../auth/useAuth.js';
+import ReaderToolbar from '../ReaderToolbar.jsx';
 
 const SAVE_DELAY = 5000;
 const MAX_CONTENT_REFRESHES = 1;

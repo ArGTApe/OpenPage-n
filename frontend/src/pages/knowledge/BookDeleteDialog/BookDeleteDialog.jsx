@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 
-import { deleteKnowledgeBook } from '../../api/knowledge.js';
-import BookConfirmationDialog from './BookConfirmationDialog.jsx';
+import { deleteKnowledgeBook } from '../../../api/knowledge.js';
+import BookConfirmationDialog from '../BookConfirmationDialog.jsx';
 
 function deleteErrorMessage(error) {
   if (error.status === 403) return 'У вас нет права удалять эту книгу.';

@@ -9,9 +9,9 @@ import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
-import { clearSession, saveSession } from '../../api/client.js';
-import { AuthContext } from '../../auth/useAuth.js';
-import { jsonResponse, mockUser } from '../../test/testData.js';
+import { clearSession, saveSession } from '../../../api/client.js';
+import { AuthContext } from '../../../auth/useAuth.js';
+import { jsonResponse, mockUser } from '../../../test/testData.js';
 import KnowledgePage from './KnowledgePage.jsx';
 
 const emptyPage = {

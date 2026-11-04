@@ -3,8 +3,8 @@ import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
-import { clearSession, saveSession } from '../../api/client.js';
-import { jsonResponse, mockUser } from '../../test/testData.js';
+import { clearSession, saveSession } from '../../../api/client.js';
+import { jsonResponse, mockUser } from '../../../test/testData.js';
 import ArticleEditorPage from './ArticleEditorPage.jsx';
 
 const articleId = 'eb56e24a-6c4c-4dbf-903c-768df56e1ed4';

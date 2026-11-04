@@ -4,10 +4,10 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import {
   deleteKnowledgeArticle,
   getKnowledgeArticle,
-} from '../../api/knowledge.js';
-import useAuth from '../../auth/useAuth.js';
-import SiteLayout from '../../components/SiteLayout.jsx';
-import MarkdownContent from './MarkdownContent.jsx';
+} from '../../../api/knowledge.js';
+import useAuth from '../../../auth/useAuth.js';
+import SiteLayout from '../../../components/SiteLayout.jsx';
+import MarkdownContent from '../MarkdownContent.jsx';
 
 const initialState = { status: 'loading', article: null };
 

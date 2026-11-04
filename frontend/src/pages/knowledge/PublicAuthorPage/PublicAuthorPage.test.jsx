@@ -9,7 +9,7 @@ import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
-import { jsonResponse } from '../../test/testData.js';
+import { jsonResponse } from '../../../test/testData.js';
 import PublicAuthorPage from './PublicAuthorPage.jsx';
 
 const publicId = '9a7c27e5-c9d4-428f-bc28-7ebaf83088cf';

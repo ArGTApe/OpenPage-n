@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
-import BookCover from './BookCover.jsx';
-import { BookPublicationBadge } from './BookPublicationInfo.jsx';
-import { bookAuthorLine, formatBookProgress } from './bookPresentation.js';
+import BookCover from '../BookCover.jsx';
+import { BookPublicationBadge } from '../BookPublicationInfo/BookPublicationInfo.jsx';
+import { bookAuthorLine, formatBookProgress } from '../bookPresentation.js';
 
 export default function BookCard({ book, readingPercentage, action }) {
   const authorLine = bookAuthorLine(book);

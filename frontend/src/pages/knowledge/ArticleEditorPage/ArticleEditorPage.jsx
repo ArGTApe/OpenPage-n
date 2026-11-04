@@ -8,9 +8,9 @@ import {
   getKnowledgeProfile,
   updateKnowledgeArticle,
   uploadArticleSessionImage,
-} from '../../api/knowledge.js';
-import SiteLayout from '../../components/SiteLayout.jsx';
-import MarkdownContent from './MarkdownContent.jsx';
+} from '../../../api/knowledge.js';
+import SiteLayout from '../../../components/SiteLayout.jsx';
+import MarkdownContent from '../MarkdownContent.jsx';
 
 const emptyForm = {
   title: '',

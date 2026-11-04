@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { getKnowledgeLibrary } from '../../api/knowledge.js';
-import SiteLayout from '../../components/SiteLayout.jsx';
+import { getKnowledgeLibrary } from '../../../api/knowledge.js';
+import SiteLayout from '../../../components/SiteLayout.jsx';
 import BookCollection, {
   initialBookCollectionState,
   loadedBookCollection,
 } from './BookCollection.jsx';
-import BookLibraryRemoveDialog from './BookLibraryRemoveDialog.jsx';
+import BookLibraryRemoveDialog from '../BookLibraryRemoveDialog.jsx';
 
 export default function LibraryPage() {
   const [page, setPage] = useState(1);

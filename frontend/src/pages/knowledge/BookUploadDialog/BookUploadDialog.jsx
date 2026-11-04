@@ -3,9 +3,9 @@ import { useEffect, useRef, useState } from 'react';
 import {
   previewKnowledgeBook,
   uploadKnowledgeBook,
-} from '../../api/knowledge.js';
-import BookMetadataFields from './BookMetadataFields.jsx';
-import useImagePreview from './useImagePreview.js';
+} from '../../../api/knowledge.js';
+import BookMetadataFields from '../BookMetadataFields.jsx';
+import useImagePreview from '../useImagePreview.js';
 
 const initialForm = {
   file: null,

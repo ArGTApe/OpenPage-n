@@ -5,8 +5,8 @@ import {
   getKnowledgeAuthor,
   getKnowledgeAuthorArticles,
   getKnowledgeAuthorBooks,
-} from '../../api/knowledge.js';
-import SiteLayout from '../../components/SiteLayout.jsx';
+} from '../../../api/knowledge.js';
+import SiteLayout from '../../../components/SiteLayout.jsx';
 import { ProfileAvatar } from './AuthorProfile.jsx';
 import ArticleCard from './ArticleCard.jsx';
 import BookCard from './BookCard.jsx';

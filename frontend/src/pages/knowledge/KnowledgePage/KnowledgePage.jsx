@@ -7,9 +7,9 @@ import {
   getKnowledgeBooks,
   getKnowledgeProfile,
   getMyKnowledgeArticles,
-} from '../../api/knowledge.js';
-import useAuth from '../../auth/useAuth.js';
-import SiteLayout from '../../components/SiteLayout.jsx';
+} from '../../../api/knowledge.js';
+import useAuth from '../../../auth/useAuth.js';
+import SiteLayout from '../../../components/SiteLayout.jsx';
 import AuthorProfile from './AuthorProfile.jsx';
 import AuthorProfileDialog from './AuthorProfileDialog.jsx';
 import ArticleCard from './ArticleCard.jsx';
@@ -18,7 +18,7 @@ import BookCollection, {
   loadedBookCollection,
 } from './BookCollection.jsx';
 import BookLibraryAction from './BookLibraryAction.jsx';
-import BookUploadDialog from './BookUploadDialog.jsx';
+import BookUploadDialog from '../BookUploadDialog/BookUploadDialog.jsx';
 
 const initialArticlesState = {
   status: 'loading',
