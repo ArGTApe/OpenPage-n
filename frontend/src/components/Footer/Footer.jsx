@@ -1,4 +1,4 @@
-import BrandMark from './BrandMark.jsx';
+import BrandMark from '../BrandMark.jsx';
 
 // Футер
 export default function Footer() {

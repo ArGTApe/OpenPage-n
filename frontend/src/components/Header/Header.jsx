@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import BrandMark from './BrandMark.jsx';
+import BrandMark from '../BrandMark.jsx';
 
 // Шапка
 export default function Header() {
