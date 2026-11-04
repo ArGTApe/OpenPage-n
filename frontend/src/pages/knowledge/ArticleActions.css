@@ -18,6 +18,12 @@
   font-weight: 600;
 }
 
+/* Destructive action: delete article */
+.article-owner-actions button {
+  border-color: #59383f;
+  color: #e8a9ad;
+}
+
 .article-owner-actions a:hover,
 .article-editor-actions a:hover {
   border-color: #7050a5;
