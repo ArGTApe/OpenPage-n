@@ -1,6 +1,6 @@
 import { Navigate, useLocation } from 'react-router-dom';
 
-import useAuth from './useAuth.js';
+import useAuth from '../useAuth.js';
 
 export function SessionLoading() {
   return <div className="session-loading" role="status">Проверяем сессию…</div>;

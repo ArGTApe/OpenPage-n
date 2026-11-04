@@ -4,13 +4,13 @@ import {
   clearSession,
   saveSession,
   subscribeToSession,
-} from '../api/client.js';
+} from '../../api/client.js';
 import {
   login as requestLogin,
   logout as requestLogout,
   refresh,
-} from '../api/auth.js';
-import { AuthContext } from './useAuth.js';
+} from '../../api/auth.js';
+import { AuthContext } from '../useAuth.js';
 
 // Общее состояние пользовательской сессии
 export default function AuthProvider({ children }) {

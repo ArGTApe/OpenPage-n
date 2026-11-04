@@ -7,10 +7,10 @@ import {
 } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
-import { authorizedRequest, clearSession } from '../api/client.js';
-import { jsonResponse, mockUser as user } from '../test/testData.js';
+import { authorizedRequest, clearSession } from '../../api/client.js';
+import { jsonResponse, mockUser as user } from '../../test/testData.js';
 import AuthProvider from './AuthProvider.jsx';
-import useAuth from './useAuth.js';
+import useAuth from '../useAuth.js';
 
 function SessionState() {
   const auth = useAuth();
