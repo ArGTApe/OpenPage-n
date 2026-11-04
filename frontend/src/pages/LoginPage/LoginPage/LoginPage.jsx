@@ -1,11 +1,11 @@
 import { useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-import { register, verifyEmail } from '../../api/auth.js';
-import useAuth from '../../auth/useAuth.js';
-import SiteLayout from '../../components/SiteLayout.jsx';
-import AuthForm from './AuthForm.jsx';
-import VerificationDialog from './VerificationDialog.jsx';
+import { register, verifyEmail } from '../../../api/auth.js';
+import useAuth from '../../../auth/useAuth.js';
+import SiteLayout from '../../../components/SiteLayout.jsx';
+import AuthForm from '../AuthForm.jsx';
+import VerificationDialog from '../VerificationDialog/VerificationDialog.jsx';
 
 // Вход и регистрация
 export default function LoginPage() {
